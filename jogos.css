@@ -1,0 +1,56 @@
+header{
+    background-color: #b41010;
+    color: white;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalhoh {
+    background-color: #b41010;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-lista-itemh{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.jogos-01{
+    background-image: linear-gradient(#b41010,#764ee9);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.jogos-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+    text-align: center;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.jogos{
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30%;
+
+}
+
+.entreou{
+    text-align: center;
+}

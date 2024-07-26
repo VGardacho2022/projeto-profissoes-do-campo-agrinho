@@ -98,3 +98,15 @@ body {
     text-decoration: none; 
     color: white;
 }
+
+@media screen and (min-width: 728px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 1728px) {
+    
+}

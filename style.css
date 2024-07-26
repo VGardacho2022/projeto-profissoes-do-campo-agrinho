@@ -27,12 +27,17 @@ header{
     padding: 0;
 }
 
-.lanhouse-imagem{
-    width: 25%;
-}
-
 .escola{
     background-image: linear-gradient(#008000,#32cd32);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola_info{
+    background-color: #32cd32;
     color:white;
     display: flex;
     justify-content: center;

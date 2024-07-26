@@ -4,7 +4,8 @@ header{
 }
 
 .cabecalho-imagem{
-    width: 20%;
+    height: 50px 50px;
+    padding: 25px 0;
 }
 
 .cabecalho {

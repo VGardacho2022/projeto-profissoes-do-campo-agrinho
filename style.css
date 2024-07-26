@@ -58,6 +58,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.botões {
+    background-color: #ff4d700 ;
+    padding: 1em 2.2em;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
 .estudante-titulo{
     text-align: center;
     padding: 24px 0;

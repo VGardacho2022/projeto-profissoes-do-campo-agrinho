@@ -66,6 +66,11 @@ body {
     text-decoration: none;
 }
 
+.imagem-dir {
+    height: 50px 50px;
+    padding: 25px 0;
+    align-itens: center;
+}
 
 .estudante-titulo{
     text-align: center;

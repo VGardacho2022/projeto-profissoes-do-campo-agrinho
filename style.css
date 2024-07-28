@@ -41,7 +41,7 @@ header{
     color:white;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 24px 0;
 }
 
 .escola-titulo{
@@ -54,7 +54,7 @@ body {
 
 .botões {
     background-color: #ffd700;
-    padding: 1em 2em;
+    padding: 1em 1.1em;
     color: white;
     font-weight: 700;
     text-decoration: none;

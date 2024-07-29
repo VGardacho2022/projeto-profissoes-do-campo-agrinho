@@ -44,8 +44,9 @@ header{
     padding: 24px 0;
 }
 
-.escola-titulo{
+.titulo{
     padding: 24px 0;
+    text-align: center;
 }
 
 body {
@@ -61,8 +62,8 @@ body {
 }
 
 .imagem-dir {
-    height: 20px 20px;
-    padding: 25px 0;
+    height: 5px 5px;
+    padding: 10px 0;
 }
 
 .estudante-titulo{

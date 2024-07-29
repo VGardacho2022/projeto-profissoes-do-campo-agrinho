@@ -43,7 +43,6 @@ header{
     text-align: center;
     justify-content: center;
     padding: 24px 0;
-    flex-ditection: row;
 }
 
 .titulo{
@@ -55,7 +54,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.botões {
+.botoes {
     background-color: #ffd700;
     padding: 1em 1.1em;
     color: white;

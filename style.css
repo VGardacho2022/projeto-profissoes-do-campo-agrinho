@@ -43,6 +43,7 @@ header{
     text-align: center;
     justify-content: center;
     padding: 24px 0;
+    flex-ditection: row;
 }
 
 .titulo{
@@ -60,6 +61,7 @@ body {
     color: white;
     font-weight: 700;
     text-decoration: none;
+    align-content: start;
 }
 
 .imagem-dir {

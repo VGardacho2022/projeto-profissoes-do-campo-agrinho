@@ -61,13 +61,13 @@ body {
     color: white;
     font-weight: 700;
     text-decoration: none;
-    align-content: start;
+    justify-content: start;
 }
 
 .imagem-dir {
     height: 5px 5px;
     padding: 10px 0;
-    justify-content: end;
+    align-content: end;
 }
 
 .estudante-titulo{

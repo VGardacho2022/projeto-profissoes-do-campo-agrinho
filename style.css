@@ -42,7 +42,6 @@ header{
     color:white;
     display: flex;
     text-align: center;
-    justify-content: center;
     padding: 24px 0;
 }
 
@@ -61,13 +60,13 @@ body {
     color: white;
     font-weight: 700;
     text-decoration: none;
-    justify-content: start;
+    align-content: start;
 }
 
 .imagem-dir {
     height: 5px 5px;
     padding: 10px 0;
-    align-content: end;
+    justify-content: end;
 }
 
 .estudante-titulo{

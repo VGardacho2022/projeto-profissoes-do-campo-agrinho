@@ -1,5 +1,14 @@
+:root {
+    --branco: #white;
+    --preto: #black;
+    --verde: #008000;
+    --verde-gradiente: linear-gradient(#008000,#32cd32);
+    --verdinho: #32cd32;
+    --dourado: #ffd700;
+}
+
 header{
-    background-color: #008000;
+    background-color: var(--verde);
     color: white;
 }
 
@@ -9,8 +18,8 @@ header{
 }
 
 .cabecalho {
-    background-color: #008000;
-    color: white;
+    background-color: var(--verde);
+    color: var(--branco);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,7 +100,7 @@ body {
 }
 
 .rodape{
-    background-color: black;
+    background-color: var(--preto);
     text-align: center;
 }
 
@@ -102,7 +111,7 @@ body {
 
 .desenvolvido{
     background-image: linear-gradient(#32cd32,#008000);
-    color:white;
+    color: var(--branco);
     padding: 24px 0;
 }
 

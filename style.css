@@ -1,15 +1,16 @@
 :root {
-    --branco: #white;
-    --preto: #black;
+    --branco: #ffffff;
+    --preto: #000000;
     --verde: #008000;
     --verde-gradiente: linear-gradient(#008000,#32cd32);
+    --gradiente-verde: linear-gradient(#32cd32,#008000);
     --verdinho: #32cd32;
     --dourado: #ffd700;
 }
 
 header{
     background-color: var(--verde);
-    color: white;
+    color: var(--branco);
 }
 
 .cabecalho-imagem{
@@ -38,8 +39,8 @@ header{
 }
 
 .intro{
-    background-image: linear-gradient(#008000,#32cd32);
-    color:white;
+    background-image: var(--verde-gradiente);
+    color: var(--branco);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -47,8 +48,8 @@ header{
 }
 
 .profissao{
-    background-color: #32cd32;
-    color:white;
+    background-color: var(--verdinho);
+    color: var(--branco);
     display: flex;
     text-align: center;
     padding: 24px 0;
@@ -64,9 +65,9 @@ body {
 }
 
 .botoes {
-    background-color: #ffd700;
+    background-color:var(--dourado);
     padding: 1em 1.1em;
-    color: white;
+    color: var(--branco);
     font-weight: 700;
     text-decoration: none;
     align-content: start;
@@ -110,14 +111,14 @@ body {
 }
 
 .desenvolvido{
-    background-image: linear-gradient(#32cd32,#008000);
+    background-image: var(--gradiente-verde);
     color: var(--branco);
     padding: 24px 0;
 }
 
 .cabecalho-lista-item a{
     text-decoration: none; 
-    color: white;
+    color: var(--branco);
 }
 
 @media screen and (min-width: 728px) {

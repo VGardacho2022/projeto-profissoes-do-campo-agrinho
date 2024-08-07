@@ -83,6 +83,7 @@ body {
     color: var(--preto);
     padding: 3px;
     font-size: 10px;
+    text-align: end;
 }
 
 .dev-titulo{

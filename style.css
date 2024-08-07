@@ -79,6 +79,12 @@ body {
     justify-content: flex-end;
 }
 
+.legenda {
+    color: var(--preto);
+    padding: 3px;
+    font-size: 10px;
+}
+
 .dev-titulo{
     text-align: center;
     padding: 24px 0;

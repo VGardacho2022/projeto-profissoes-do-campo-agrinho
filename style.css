@@ -73,6 +73,11 @@ body {
     align-content: start;
 }
 
+.img{
+    display: flex;
+    flex-flow: column;
+}
+
 .imagem-dir {
     height: 5px 5px;
     padding: 10px 0;
@@ -83,7 +88,7 @@ body {
     color: var(--preto);
     padding: 3px;
     font-size: 10px;
-    text-align: end;
+    text-align: center;
 }
 
 .dev-titulo{
@@ -129,6 +134,12 @@ body {
 }
 
 @media screen and (min-width: 728px) {
+.legenda {
+    color: var(--preto);
+    padding: 3px;
+    font-size: 5px;
+    text-align: center;
+}
     
 }
 

@@ -50,7 +50,6 @@ header{
 .profissao{
     background-color: var(--verdinho);
     color: var(--branco);
-    display: flex;
     text-align: center;
     padding: 24px 0;
 }
@@ -71,13 +70,6 @@ body {
     font-weight: 700;
     text-decoration: none;
     align-content: start;
-}
-
-.img{
-    display: flex;
-    flex-flow: column;
-    height: 5px 5px;
-    padding: 10px 0;
 }
 
 .imagem-dir {

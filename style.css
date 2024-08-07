@@ -76,6 +76,8 @@ body {
 .img{
     display: flex;
     flex-flow: column;
+    height: 5px 5px;
+    padding: 10px 0;
 }
 
 .imagem-dir {
